@@ -1,0 +1,19 @@
+
+
+.card:hover .hover{
+color: hsl(180, 29%, 50%);
+
+}
+@media screen and (max-width:400px) {
+  #img1 img{
+    width: 50px;
+    position:absolute;
+    top: -25px;
+  }
+  .brd {
+    border-top: solid hsl(180, 8%, 52%) 1px;
+  }
+  .hover{
+    font-size: 1rem;
+  }
+}
